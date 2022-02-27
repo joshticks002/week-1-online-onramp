@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    color: rgb(34, 33, 33);
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.logo{
+    color: rgb(24, 23, 23);
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 100px;
+    color: rgb(24, 23, 23);
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(107, 103, 103);
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(211, 71, 28);
+}
+
+.cart{
+    margin-left: 400px;
+    text-indent: -999999px;
+    height: 30px;
+    width: 50px;
+    background-image: url(shoppingCart.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+.josh{
+    margin-left: 10px;
+    text-indent: -999999px;
+    height: 40px;
+    width: 35px;
+    background-image: url(josh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2px;
+    border-radius: 40%;
+}
+
+hr {
+    width: 1150px;
+    margin-left: 20px;
+    border: 0.1px thin rgb(85, 81, 81);
+}
+
+.firstimage{
+    width: 200px;
+    height: 360px;
+    margin-top: 70px;  
+    margin-left: 80px; 
+    float: left;
+}
+
+.firstimage img{
+    width: 400px;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.others{
+    width: 90px;
+    height: 50px;
+    margin-top: 430px;  
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.others img{
+    width: 70px;
+    max-height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content{
+    width: 800px;
+    float: left;
+    height: 50px;
+    margin-top: -420px;
+    margin-left: 600px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+
+.content h6{
+    color: #df6807;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.content h1{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.content p{
+    color: rgb(107, 103, 103);
+}
+
+.content .btn{
+    width: 200spx;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+    color:#fff;
+    background-color: #ff7200;
+    padding: 20px 50px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.content .btn:hover{
+    color: black;
+}
+
+.content .addtocart{
+    width: 200spx;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+    color:#ff7200;
+    background-color: rgb(214, 210, 210);
+    padding: 15px 50px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.content .addtocart:hover{
+    color: black;
+}
+.content .stroke{
+    text-decoration: line-through;
+    color: rgb(146, 149, 151);
+}
+
+.fsmall{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #df6807;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(247, 201, 179);
+}
